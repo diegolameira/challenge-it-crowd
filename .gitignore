@@ -1,0 +1,36 @@
+# use yarn, so package-lock would be outdated
+package-lock.json
+yarn-offline-cache
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+coverage
+junit.xml
+cypress/videos
+cypress/screenshots
+
+# production
+build
+dist
+__generated__/
+
+# environment
+.env*.local
+.DS_Store
+.cache
+.idea
+.vs
+graphql.*.json
+.gqlconfig
+.expo
+!debug.keystore
+
+# log
+*-debug.log*
+*-error.log*
+flow.log
+.eslintcache

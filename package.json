@@ -1,0 +1,13 @@
+{
+  "name": "itcrowd-challenge-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexjs",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {},
+  "author": "Diego Lameira",
+  "license": "ISC"
+}
