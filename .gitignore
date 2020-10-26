@@ -34,3 +34,4 @@ graphql.*.json
 *-error.log*
 flow.log
 .eslintcache
+*.tsbuildinfo
