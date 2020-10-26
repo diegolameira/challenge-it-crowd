@@ -14,7 +14,7 @@ import { databaseProviders } from './database.providers';
       username: 'pguser',
       password: 'pgpassword',
       database: 'main',
-      entities: [Movie],
+      autoLoadEntities: true,
       synchronize: true,
     }),
   ],
