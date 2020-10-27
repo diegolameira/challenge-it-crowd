@@ -14,6 +14,7 @@
     "diegolameira"
   ],
   "scripts": {
+    "develop:debug": "yarn workspace @project/api start --debug 0.0.0.0:9229 --watch",
     "develop": "yarn workspace @project/api start:dev",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
